@@ -1,0 +1,77 @@
+
+.outercontainer{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.outerload{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+   
+}
+
+h3{
+    padding: 0.5rem;    
+    display:inline;
+}
+
+.dropdown{
+    display:inline;
+}
+
+.header{
+    width:100%;  
+    margin-top: 5rem; 
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.container1{
+    margin-top: 0rem;        
+    margin-left:0rem; 
+    width:100%;
+     
+}
+
+.container3{
+    display:flex;
+}
+
+.container4{
+    display: flex;
+    margin-top: -3.2 rem;
+    margin-right: 0.99rem;      
+    height:97.7vh;
+   
+}
+.weekdays{
+    margin-top:3.0rem;
+    display:flex;
+    flex-direction: column;
+    background-color:  #ffeebb;
+    margin-left: 80px;
+}
+.day{
+    padding: 1rem;
+    color:brown;
+    border: 1px solid brown;
+    padding-top:3.09rem;
+    padding-bottom:3.09rem;
+    height: 31px;
+}
+.timetable{
+    display: flex;
+    height: 126px;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    margin-top: -5px;
+    border: 1px solid black;
+    padding: 0.25rem;
+    background-color: hsl(30, 100%, 86%);
+    
+}

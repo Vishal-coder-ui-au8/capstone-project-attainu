@@ -1,0 +1,23 @@
+$mainColor: #FFFFFF;
+$headerColor: #444;
+$primaryColor: #3f51b5;
+
+.navItemLink{
+  text-decoration: none !important;
+  transition: .3s;
+  color: white;
+
+  div {
+    color: white;
+  }
+}
+
+a.navActive div {
+  color: $primaryColor;
+}
+
+.specialColor{
+  color: #E12323;
+  font-weight: bold;
+}
+

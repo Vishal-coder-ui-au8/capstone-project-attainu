@@ -1,0 +1,31 @@
+.ttableitem{
+    flex-basis: 7.75%;                
+    background-color: #ffeebb;  
+    overflow: hidden;
+    padding: 1rem;   
+    cursor: pointer;
+    transition: transform 0.2s;
+    color:brown;
+    border: 1px solid brown;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+   
+      p{
+          margin-left:1rem;
+          margin-top:0;
+          margin-bottom:0;
+
+    }
+}
+
+.ttableitem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 20%);
+}
+
+
+  
